@@ -15,7 +15,7 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name) as f:
               st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-local_css(r"C:\Users\RAJ KUMAR GUBBALA\Downloads\StreamLit\project1\style.css")
+local_css(r"C:\Users\RAJ KUMAR GUBBALA\Downloads\StreamLit\project1\css\style.css")
 
 hello = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_wpaclr3s.json")
 pro1 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_RzSHYh.json")
